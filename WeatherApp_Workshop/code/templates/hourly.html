@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/hourlystyles.css">
+    <title>Hourly Weather Forecast</title>
+</head>
+<body>
+    <h2>Hourly Weather Forecast</h2>
+    <a href="index.html" style="text-decoration: none;">
+        <button style="background-color: rgb(76, 76, 78); color: white; padding: 10px 20px; border: none; cursor: pointer;">Back</button>
+      </a>
+    <table id="weatherTable">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Temperature (°C)</th>
+                <th>Condition</th>
+                <th>Wind Speed (km/h)</th>
+            </tr>
+        </thead>
+        <tbody id="weatherData"></tbody>
+    </table>
+    <script src="../src/hourlyscript.js"></script>
+</body>
+</html>
